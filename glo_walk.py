@@ -2,6 +2,8 @@ import glob
 import json
 import os
 
+print("Enter path like this => /full path/ <= and hit enter")
+
 get_input = str(input("Enter path : "))
 path = get_input+'**/*'
 
